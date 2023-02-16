@@ -33,7 +33,7 @@ return frequentRenterPoints;
 
 }
 
-export function PrintResult(customer, movies) {
+export function returnCustomerRentalStatement(customer, movies) {
 
     let totalAmount = 0;
     let frequentRenterPoints = 0;
